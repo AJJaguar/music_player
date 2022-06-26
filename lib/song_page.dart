@@ -122,7 +122,10 @@ class _SongPageState extends State<SongPage> {
                             padding: const EdgeInsets.symmetric(horizontal: 20),
                             child: NeuBox(child: Icon(Icons.play_arrow)),
                           )),
-                      Expanded(child: NeuBox(child: Icon(Icons.skip_previous))),
+                      Expanded(
+                          child: NeuBox(
+                        child: Icon(Icons.skip_next),
+                      )),
                     ],
                   ),
                 )
