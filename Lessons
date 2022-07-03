@@ -1,0 +1,30 @@
+Use 2 box shadows with 3/4 properties for neumorphism
+use 3 colours [1 for scaffold and container then 2 for two box shadows
+colors can be colors.grey.shade700, colors.grey[700]
+
+learnt about offset (-5, -5, 5, 5) in box shadow
+
+extracted widget with a final child to give container(child: center: child: child:)
+
+use of safearea, edgeinsets symmetric
+
+space between + padding in row solves problem
+
+learnt icons [shuffle, repeat, skip-previous, play-arrow, skip-next, arrow_back_ios vs new]
+
+percent indiator package
+
+colors.transparent to render invisible
+
+sizedbox <=> container to control dimensions
+
+top light shadow vs bottom dark shadow in neumorphism
+
+find a widget in the design which will be used throughout
+
+use center to test reusable widget at start
+
+padding solves lots of problem
+
+const doesn't agree with color grey[300]
+
